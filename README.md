@@ -23,7 +23,7 @@ Root URL: * //表示任意机器都可以访问
 3.将back-front工程导入到IDE（Intellij、Eclipse、Netbeans）中
  创建数据库，数据库名 test
  将第二步的配置文件拷贝到front工程WEB-INF中的keycloak.json中
- 修改back工程中的数据库地址，数据库访问名，密码。
+ 修改back工程中的数据库地址，数据库访问名，密码
  启动back
  启动front
  4.访问地址：http://IP:8088/front
