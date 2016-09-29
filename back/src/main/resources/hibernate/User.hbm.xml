@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2014-1-9 7:54:35 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.ourfuture.back_front.bean.User" table="T_USER">
+        <id name="id" type="java.lang.String">
+            <column name="ID" />
+            <generator class="uuid" />
+        </id>
+        <property name="username" type="java.lang.String">
+            <column name="C_USERNAME" />
+        </property>
+        <property name="password" type="java.lang.String">
+            <column name="C_PASSWORD" />
+        </property>
+        <property name="realname" type="java.lang.String">
+            <column name="C_REALNAME" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="C_EMAIL" />
+        </property>
+        <property name="address" type="java.lang.String">
+            <column name="C_ADDRESS" />
+        </property>
+        <property name="zip" type="int">
+            <column name="N_ZIP" />
+        </property>
+        <property name="identityCard" type="java.lang.String">
+            <column name="C_IDENTITYCARD" />
+        </property>
+    </class>
+</hibernate-mapping>

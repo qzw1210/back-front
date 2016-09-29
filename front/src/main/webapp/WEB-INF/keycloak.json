@@ -1,0 +1,8 @@
+{
+  "realm": "myfuture",
+  "realm-public-key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh8HuYtQn6aZJ27iUFiU9rB9yNsd9G9voSYltV0WynspUPb5qE3T45x3QisDxCAMjmhR+CW17OBeDHJZ2Y7INrQwyOnTX6rS11Vm6eI0S4Oica+15cV6DrSwIO4qmXMbqCagQhOIMr8yhwBZXeT85G6/nXZAKRHQkyMZ4gyRSGDxzL1dIkPyetFQOeXbwr0rqecDWvg9LtOEtZ+dQKX4v/OOtwnmTA7p6jrKaCbmYKcwUy6molilkHmAxazHj2QZYg7jwDWKuVPqOzAIKT5E+403ElJITNfLUjRtYyBRtm367hfV+/IP+vXXPuebRO9W14yU/AmoQOUG4oKP4uBZIAQIDAQAB",
+  "auth-server-url": "http://127.0.0.1:18081/auth",
+  "ssl-required": "external",
+  "resource": "back-front",
+  "public-client": true
+}
